@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class House : MonoBehaviour
 {
+	public string infoString;
 	public int capacity = 5;
 	public bool limitCapacity = false;
 	public List<Person> inhabitants;

@@ -10,8 +10,8 @@ public class Person : MonoBehaviour
 	public Locations desiredLocation;
 	public int wantsRequired = 1;
 
-	public LayerMask houseLayer;
 	public string infoString;
+	public LayerMask houseLayer;
 	private Vector3 start;
 	private Vector3 offset;
 	private BoxCollider2D coll;
