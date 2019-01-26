@@ -79,7 +79,7 @@ public class Person : MonoBehaviour
 		{
 			House h = results[0].GetComponent<House>();
 			int wantsFulfilled = 0;
-			if (desiredLocation.want.Contains(h))
+			if (desiredLocation.want.Count == 0 || desiredLocation.want.Contains(h))
 				wantsFulfilled++;
 			else if (desiredLocation.required)
 				return false;
