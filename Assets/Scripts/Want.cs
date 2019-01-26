@@ -6,7 +6,7 @@ using UnityEngine;
 public class Want<T>
 {
 	public T want;
-	public bool required;
+	public bool required = true;
 }
 
 [System.Serializable]
