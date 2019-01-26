@@ -15,6 +15,10 @@ public class House : MonoBehaviour
     void Start()
     {
 		GetComponent<BoxCollider2D>().isTrigger = false;
+		if (PuzzleBase.instance)
+			PuzzleBase.instance.houses.Add(this);
+		else
+			Debug.Log("No Puzzle Base!?");
     }
 
     // Update is called once per frame

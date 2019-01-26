@@ -21,6 +21,10 @@ public class Person : MonoBehaviour
 		start = transform.position;
 		GetComponent<Rigidbody2D>().isKinematic = true;
 		coll = GetComponent<BoxCollider2D>();
+		if (PuzzleBase.instance)
+			PuzzleBase.instance.people.Add(this);
+		else
+			Debug.Log("No Puzzle Base?!");
 	}
 
 	private void OnMouseDown()

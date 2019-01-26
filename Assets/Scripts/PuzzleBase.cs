@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class PuzzleBase : MonoBehaviour
 {
+	public static PuzzleBase instance;
+
 	public List<House> houses;
 	public List<Person> people;
 
-    public bool IsSolved()
+	private void Awake()
+	{
+		instance = this;
+	}
+
+	public bool IsSolved()
 	{
 		foreach (House h in houses)
 		{
@@ -19,7 +26,7 @@ public class PuzzleBase : MonoBehaviour
 		}
 		return true;
 	}
-
+	/*
 	public bool MovePerson(Person person, House target, House source)
 	{
 		if (target.inhabitants.Count < target.capacity)
@@ -38,5 +45,5 @@ public class PuzzleBase : MonoBehaviour
 		source.AddPerson(personb);
 		target.RemovePerson(personb);
 		target.AddPerson(persona);
-	}
+	}*/
 }
