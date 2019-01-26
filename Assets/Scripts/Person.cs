@@ -7,6 +7,7 @@ using UnityEngine;
 public class Person : MonoBehaviour
 {
 	public List<FriendWant> beWith;
+	public List<FriendWant> dislike;
 	public Locations desiredLocation;
 	public int wantsRequired = 1;
 
@@ -87,6 +88,13 @@ public class Person : MonoBehaviour
 				if (h.HasPerson(f.want))
 					wantsFulfilled++;
 				else if (f.required)
+					return false;
+			}
+			foreach (FriendWant e in dislike)
+			{
+				if (!h.HasPerson(e.want))
+					wantsFulfilled++;
+				else if (e.required)
 					return false;
 			}
 			if (wantsFulfilled >= wantsRequired)
