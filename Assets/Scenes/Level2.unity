@@ -968,7 +968,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: desiredLocation.want.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -987,6 +987,8 @@ PrefabInstance:
 
         Wants to live with Grandparent B and C
 
+        Wants to live with Town C
+
         Hates to live with Child C
 
 '
@@ -995,11 +997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: desiredLocation.want.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 367792821}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: desiredLocation.required
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -1238,7 +1240,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: infoString
-      value: 'Parent C
+      value: 'Parent D
 
         Wants to live with Parent C
 
@@ -1909,7 +1911,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: infoString
-      value: 'Parent C
+      value: 'Parent E
 
         Wants to live in Town C
 
