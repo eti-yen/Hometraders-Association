@@ -6,7 +6,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Person : MonoBehaviour
 {
-	// Source variable used for moving.
+	public List<FriendWant> beWith;
+	public Locations desiredLocation;
+	public int wantsRequired = 1;
+
 	public LayerMask houseLayer;
 	public string infoString;
 	private Vector3 start;
@@ -62,6 +65,28 @@ public class Person : MonoBehaviour
 
 	public bool WantsFulfilled()
 	{
+		Collider2D[] results = new Collider2D[1];
+		ContactFilter2D filter = new ContactFilter2D();
+		filter.SetLayerMask(houseLayer);
+		coll.OverlapCollider(filter, results);
+		if (results[0] != null && results[0].GetComponent<House>())
+		{
+			House h = results[0].GetComponent<House>();
+			int wantsFulfilled = 0;
+			if (desiredLocation.want.Contains(h))
+				wantsFulfilled++;
+			else if (desiredLocation.required)
+				return false;
+			foreach (FriendWant f in beWith)
+			{
+				if (h.HasPerson(f.want))
+					wantsFulfilled++;
+				else if (f.required)
+					return false;
+			}
+			if (wantsFulfilled >= wantsRequired)
+				return true;
+		}
 		return false;
 	}
 }

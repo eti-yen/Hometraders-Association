@@ -2,7 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Want : MonoBehaviour
+[System.Serializable]
+public class Want<T>
 {
-	public abstract bool Fulfilled();
+	public T want;
+	public bool required;
+}
+
+[System.Serializable]
+public class FriendWant : Want<Person>
+{
+}
+
+[System.Serializable]
+public class Locations : Want<List<House>>
+{
 }

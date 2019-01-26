@@ -5,6 +5,7 @@ using UnityEngine;
 public class PuzzleBase : MonoBehaviour
 {
 	public List<House> houses;
+	public List<Person> people;
 
     public bool IsSolved()
 	{

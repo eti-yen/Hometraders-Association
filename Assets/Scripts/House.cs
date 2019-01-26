@@ -47,4 +47,9 @@ public class House : MonoBehaviour
 		else
 			inhabitants.Remove(p);
 	}
+
+	public bool HasPerson(Person p)
+	{
+		return inhabitants.Contains(p);
+	}
 }
