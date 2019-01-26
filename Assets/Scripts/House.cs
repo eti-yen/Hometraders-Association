@@ -2,19 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// House isn't really a house anymore but it's where we put people so...
 [RequireComponent(typeof(BoxCollider2D))]
 public class House : MonoBehaviour
 {
-	public int capacity;
+	public int capacity = 5;
+	public bool limitCapacity = false;
 	public List<Person> inhabitants;
 
     // Start is called before the first frame update
     void Start()
     {
-        foreach (Person p in inhabitants)
-		{
-			p.house = this;
-		}
+		GetComponent<BoxCollider2D>().isTrigger = false;
     }
 
     // Update is called once per frame
@@ -25,9 +24,9 @@ public class House : MonoBehaviour
 
 	public bool AtCapacity()
 	{
-		if (inhabitants.Count > capacity)
+		if (limitCapacity && inhabitants.Count > capacity)
 			Debug.Log("WAT");
-		return inhabitants.Count == capacity;
+		return limitCapacity && inhabitants.Count == capacity;
 	}
 
 	public void AddPerson(Person p)
@@ -37,7 +36,7 @@ public class House : MonoBehaviour
 		else
 		{
 			inhabitants.Add(p);
-			p.house = this;
+			//p.house = this;
 		}
 	}
 
