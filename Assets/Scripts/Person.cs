@@ -10,6 +10,7 @@ public class Person : MonoBehaviour
 	public Locations desiredLocation;
 	public int wantsRequired = 1;
 
+	[TextArea]
 	public string infoString;
 	public LayerMask houseLayer;
 	private Vector3 start;
