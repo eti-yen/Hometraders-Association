@@ -6,29 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class TextManager : MonoBehaviour
 {
-    Ray ray;
-    RaycastHit hit;
+ 
     public Camera mainCamera;
     public int restartSceneIndex;
+    public GameObject InfoText;
+    Text infoText;
 
     // Start is called before the first frame update
     void Start()
     {
-        print("here");
+   
+        infoText = InfoText.GetComponent<Text>();
+        infoText.text = "Information";
     }
 
     // Update is called once per frame
     void Update()
     {
-        ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
-        {
-            print(hit.collider.name);
-        }
-        else
-        {
-
-        }
+       
+        
     }
     public void RestartButton()
     {

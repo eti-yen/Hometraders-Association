@@ -391,6 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 519420031}
   restartSceneIndex: 1
+  InfoText: {fileID: 636998197}
 --- !u!1 &736076086
 GameObject:
   m_ObjectHideFlags: 0
