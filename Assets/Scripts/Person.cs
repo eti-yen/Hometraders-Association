@@ -7,7 +7,8 @@ public class Person : MonoBehaviour
 {
 	public House house;
 	private Vector3 offset;
-	
+    public string infoString;
+    
 	private void OnMouseDown()
 	{
 		offset = gameObject.transform.position - 
