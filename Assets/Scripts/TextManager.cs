@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TextManager : MonoBehaviour
 {
  
-    public Camera mainCamera;
+    //public Camera mainCamera;
     public int restartSceneIndex;
     public int nextSceneIndex;
     public GameObject InfoText;
@@ -39,7 +39,14 @@ public class TextManager : MonoBehaviour
         if (hit)
         {
             person = hit.transform.GetComponent<Person>();
-            infoText.text = person.infoString;
+			if (person)
+			    infoText.text = person.infoString;
+			else
+			{
+				House house = hit.transform.GetComponent<House>();
+				if (house)
+					infoText.text = house.infoString;
+			}
         }
         else
         {
@@ -71,6 +78,8 @@ public class TextManager : MonoBehaviour
     }
     public void CheckButton()
     {
+		if (PuzzleBase.instance)
+			goal = PuzzleBase.instance.IsSolved();
         win = goal;
         if (goal)
         {
