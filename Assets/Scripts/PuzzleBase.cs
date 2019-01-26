@@ -23,7 +23,7 @@ public class PuzzleBase : MonoBehaviour
 	{
 		if (target.inhabitants.Count < target.capacity)
 		{
-			source.inhabitants.Remove(person);
+			source.RemovePerson(person);
 			target.AddPerson(person);
 			return true;
 		}
@@ -33,9 +33,9 @@ public class PuzzleBase : MonoBehaviour
 	// Person a is from the source house, person b is from the target house
 	public void SwapPerson(Person persona, Person personb, House target, House source)
 	{
-		source.inhabitants.Remove(persona);
+		source.RemovePerson(persona);
 		source.AddPerson(personb);
-		target.inhabitants.Remove(personb);
+		target.RemovePerson(personb);
 		target.AddPerson(persona);
 	}
 }

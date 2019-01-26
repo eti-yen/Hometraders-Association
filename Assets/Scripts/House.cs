@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class House : MonoBehaviour
 {
 	public int capacity;
@@ -22,14 +23,29 @@ public class House : MonoBehaviour
         
     }
 
+	public bool AtCapacity()
+	{
+		if (inhabitants.Count > capacity)
+			Debug.Log("WAT");
+		return inhabitants.Count == capacity;
+	}
+
 	public void AddPerson(Person p)
 	{
 		if (inhabitants.Contains(p))
-			return;
+			Debug.Log("Attempting to add someone who's already in the house!");
 		else
 		{
 			inhabitants.Add(p);
 			p.house = this;
 		}
+	}
+
+	public void RemovePerson(Person p)
+	{
+		if (!inhabitants.Contains(p))
+			Debug.Log("Attempting to remove person not in house!");
+		else
+			inhabitants.Remove(p);
 	}
 }
