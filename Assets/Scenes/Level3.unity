@@ -201,7 +201,7 @@ PrefabInstance:
 
         Wants to Live in Town B
 
-        Hates to live with Grandarent B'
+        Hates to live with Grandparent B'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -2395,7 +2395,7 @@ PrefabInstance:
       propertyPath: infoString
       value: 'Child A
 
-        Wants to Live with GrandParent B and Parent A'
+        Wants to Live with Grandparent B and Parent A'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -2869,6 +2869,36 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSceneIndex
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.28997803
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.47999954
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.31127352
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.3038077
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.80000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -1.0999999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e17001e8b3f85ea4cbb05baa59a155b5, type: 3}

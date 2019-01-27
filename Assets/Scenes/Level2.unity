@@ -201,7 +201,7 @@ PrefabInstance:
 
         Wants to Live with Parent A
 
-        Hates to live with Grandarent C'
+        Hates to live with Grandparent C'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -1129,9 +1129,9 @@ PrefabInstance:
       propertyPath: infoString
       value: 'Child B
 
-        Wants to live with Grandparent B and C
+        Wants to live with Grandparent B and Grandparent C
 
-        Wants to live with Town C
+        Wants to live in Town C
 
         Hates to live with Child C
 
@@ -2110,7 +2110,7 @@ PrefabInstance:
       propertyPath: infoString
       value: 'Parent E
 
-        Hates to live with Kid A'
+        Hates to live with Child A'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -2583,6 +2583,36 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSceneIndex
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.14001465
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -0.3699999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.28684622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.31127352
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.80000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537991546605, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -1.0999999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e17001e8b3f85ea4cbb05baa59a155b5, type: 3}
