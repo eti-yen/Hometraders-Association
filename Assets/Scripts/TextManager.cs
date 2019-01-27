@@ -14,6 +14,7 @@ public class TextManager : MonoBehaviour
     public GameObject winText;
     public GameObject failText;
     public bool goal; //The goal from other class check
+	public AudioSource victorySound;
     bool win; //Whether the player can enter the next stage
     Text infoText;
     RaycastHit2D hit;
@@ -85,6 +86,7 @@ public class TextManager : MonoBehaviour
         {
             showResult = true;
             winText.SetActive(true);
+			victorySound.Play();
         }
         else
         {
