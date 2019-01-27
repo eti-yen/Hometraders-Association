@@ -19,7 +19,10 @@ public class PuzzleBase : MonoBehaviour
 		foreach (Person p in people)
 		{
 			if (!p.WantsFulfilled())
+			{
+				Debug.Log(p.gameObject);
 				return false;
+			}
 		}
 		return true;
 	}
