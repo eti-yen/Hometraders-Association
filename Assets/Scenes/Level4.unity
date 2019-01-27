@@ -3091,17 +3091,22 @@ PrefabInstance:
       propertyPath: m_FontData.m_VerticalOverflow
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
-        type: 3}
-      propertyPath: restartSceneIndex
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5979781536731364389, guid: e17001e8b3f85ea4cbb05baa59a155b5,
         type: 3}
       propertyPath: m_Text
       value: 'Stage Four
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: restartSceneIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: nextSceneIndex
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e17001e8b3f85ea4cbb05baa59a155b5, type: 3}
