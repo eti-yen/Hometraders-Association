@@ -16,7 +16,8 @@ public class PuzzleBase : MonoBehaviour
 
 	public bool IsSolved()
 	{
-		foreach (Person p in people)
+        
+        foreach (Person p in people)
 		{
 			if (!p.WantsFulfilled())
 			{
