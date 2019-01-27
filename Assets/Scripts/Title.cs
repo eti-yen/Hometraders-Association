@@ -7,6 +7,8 @@ public class Title : MonoBehaviour
 {
     public int startSceneIndex;
     public int stageSceneIndex;
+    public GameObject insturction;
+    bool startGame = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +18,20 @@ public class Title : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (startGame == true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                SceneManager.LoadScene(stageSceneIndex);
+            }
+                
+        }
     }
     public void StartButton()
     {
-        SceneManager.LoadScene(stageSceneIndex);
+        insturction.SetActive(true);
+        startGame = true;
+       
     }
     public void ExitButton()
     {

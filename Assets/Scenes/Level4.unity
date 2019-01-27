@@ -890,6 +890,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: House D
       objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: infoString
+      value: Town D (Capacity 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: limitCapacity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -960,16 +970,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.4662375
       objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: infoString
-      value: Town D (Capacity 4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: limitCapacity
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f0189c1b3eef419a7e6329e86aa95, type: 3}
 --- !u!114 &741062811 stripped
@@ -995,6 +995,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House B
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: infoString
+      value: Town B (Capacity 7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: limitCapacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: capacity
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
@@ -1065,21 +1080,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.4662375
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: infoString
-      value: Town B (Capacity 7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: limitCapacity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: capacity
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f0189c1b3eef419a7e6329e86aa95, type: 3}
@@ -1968,6 +1968,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: House C
       objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: infoString
+      value: Town C (Capacity 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: limitCapacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: capacity
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2037,21 +2052,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.4662375
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: infoString
-      value: Town C (Capacity 4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: limitCapacity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
-        type: 3}
-      propertyPath: capacity
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f0189c1b3eef419a7e6329e86aa95, type: 3}
@@ -3090,6 +3090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_VerticalOverflow
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
+        type: 3}
+      propertyPath: restartSceneIndex
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e17001e8b3f85ea4cbb05baa59a155b5, type: 3}

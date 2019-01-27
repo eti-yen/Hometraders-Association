@@ -253,6 +253,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a3df676796db443438c2d3136deecac0,
         type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.011136174
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.11748007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0017619729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12123656
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
 --- !u!1 &98511450
@@ -459,8 +479,28 @@ PrefabInstance:
     - target: {fileID: 1517308369, guid: 412d177ea9f4bb446b769871102df211, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fd1b77db2fc3e2440a99bc7f89c54da4,
+      objectReference: {fileID: 21300000, guid: 4c294f792b0e18644b76b3f7b9f9c86e,
         type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.015857793
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12828441
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0050618723
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.17012374
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
 --- !u!114 &367792821 stripped
@@ -716,14 +756,17 @@ PrefabInstance:
     - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: infoString
-      value: 'Town B
-
-        Capacity:5'
+      value: Town B (Capacity 5)
       objectReference: {fileID: 0}
     - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: limitCapacity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: capacity
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
@@ -829,9 +872,12 @@ PrefabInstance:
     - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: infoString
-      value: 'Town A
-
-        Capacity:5'
+      value: Town A (Capacity 5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: capacity
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
@@ -1062,6 +1108,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a3df676796db443438c2d3136deecac0,
         type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.010123745
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.11545533
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0035239607
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12476057
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
 --- !u!114 &1000298303 stripped
@@ -1249,7 +1315,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: beWith.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -1260,8 +1326,6 @@ PrefabInstance:
         type: 3}
       propertyPath: infoString
       value: 'Parent D
-
-        Wants to live with Parent C
 
         Hates Chilren'
       objectReference: {fileID: 0}
@@ -1492,14 +1556,17 @@ PrefabInstance:
     - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: infoString
-      value: 'Town C
-
-        Capacity:5'
+      value: Town C (Capacity 5)
       objectReference: {fileID: 0}
     - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
       propertyPath: limitCapacity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310370046234998774, guid: cf6f0189c1b3eef419a7e6329e86aa95,
+        type: 3}
+      propertyPath: capacity
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6958629751737197427, guid: cf6f0189c1b3eef419a7e6329e86aa95,
         type: 3}
@@ -1703,6 +1770,31 @@ PrefabInstance:
         type: 3}
       propertyPath: wantsRequired
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517308369, guid: 412d177ea9f4bb446b769871102df211, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a35b6652c884706478b3f58af352739b,
+        type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0060742795
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.17214856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.008809827
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.14238034
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
@@ -1922,7 +2014,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: desiredLocation.want.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -1939,8 +2031,6 @@ PrefabInstance:
       propertyPath: infoString
       value: 'Parent E
 
-        Wants to live in Town C
-
         Hates to live with Kid A'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
@@ -1951,7 +2041,7 @@ PrefabInstance:
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
       propertyPath: desiredLocation.required
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
@@ -2094,6 +2184,31 @@ PrefabInstance:
       propertyPath: beWith.Array.data[0].required
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1517308369, guid: 412d177ea9f4bb446b769871102df211, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a35b6652c884706478b3f58af352739b,
+        type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0060742795
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.17214856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.010571821
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.13885635
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
 --- !u!1001 &1793368545
@@ -2222,6 +2337,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a3df676796db443438c2d3136deecac0,
         type: 3}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.012148574
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.12760395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0017619953
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654451671911409981, guid: 412d177ea9f4bb446b769871102df211,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.107140705
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412d177ea9f4bb446b769871102df211, type: 3}
 --- !u!114 &1793368546 stripped
