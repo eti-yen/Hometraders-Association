@@ -932,7 +932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSceneIndex: 0
-  stageSceneIndex: 2
+  stageSceneIndex: 1
   insturction: {fileID: 759011067}
   credits: {fileID: 2146041287}
 --- !u!224 &1834462323

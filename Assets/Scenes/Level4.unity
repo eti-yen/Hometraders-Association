@@ -3301,12 +3301,12 @@ PrefabInstance:
     - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
         type: 3}
       propertyPath: restartSceneIndex
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5979781537964551216, guid: e17001e8b3f85ea4cbb05baa59a155b5,
         type: 3}
       propertyPath: nextSceneIndex
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5979781537991546604, guid: e17001e8b3f85ea4cbb05baa59a155b5,
         type: 3}

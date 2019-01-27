@@ -415,9 +415,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ecb25022fceaf45bf99359510221f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSceneIndex: 1
+  startSceneIndex: 0
   stageSceneIndex: 0
   insturction: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!224 &734694801
 RectTransform:
   m_ObjectHideFlags: 0
