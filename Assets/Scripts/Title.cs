@@ -8,6 +8,8 @@ public class Title : MonoBehaviour
     public int startSceneIndex;
     public int stageSceneIndex;
     public GameObject insturction;
+	public GameObject credits;
+	bool inCredits = false;
     bool startGame = false;
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,14 @@ public class Title : MonoBehaviour
             }
                 
         }
+		else if (inCredits)
+		{
+			if (Input.GetMouseButtonDown(1))
+			{
+				credits.SetActive(false);
+				inCredits = false;
+			}
+		}
     }
     public void StartButton()
     {
@@ -41,4 +51,10 @@ public class Title : MonoBehaviour
     {
         SceneManager.LoadScene(startSceneIndex);
     }
+
+	public void CreditsButton()
+	{
+		credits.SetActive(true);
+		inCredits = true;
+	}
 }
