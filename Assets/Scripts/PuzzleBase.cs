@@ -16,10 +16,21 @@ public class PuzzleBase : MonoBehaviour
 
 	public bool IsSolved()
 	{
-		foreach (Person p in people)
+        
+        foreach (Person p in people)
 		{
-			if (!p.WantsFulfilled())
-				return false;
+           
+            if (!p.WantsFulfilled())
+            {
+                print(p);
+                print("false");
+                return false;
+            }
+            else
+            {
+               // print(p);
+                //print("s");
+            }
 		}
 		return true;
 	}
