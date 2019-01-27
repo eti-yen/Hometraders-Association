@@ -1503,7 +1503,7 @@ PrefabInstance:
       propertyPath: infoString
       value: 'Parent D
 
-        Hates Chilren'
+        Hates Children'
       objectReference: {fileID: 0}
     - target: {fileID: 2245800886890899355, guid: 412d177ea9f4bb446b769871102df211,
         type: 3}
